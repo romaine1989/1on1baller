@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+
+body {
+	margin: 0;
+}
+
+#countdown {
+	font-family: 'Bungee Inline', cursive;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Bungee', cursive;
+	line-height: 1.4em;
+	letter-spacing: 3px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+p {
+	font-family: 'Roboto Condensed', sans-serif;
+	line-height: 1.9em;
+	font-size: 18px;
+}
+
+#wrapper {
+	/*background: linear-gradient(rgba(181, 35, 36,0.75), rgba(181, 35, 36,0.9)), url(img/court2.jpg);
+	background: linear-gradient(rgba(181, 35, 36,0.75), rgba(181, 35, 36,0.9)), url(../court2.jpg);*/
+	background-image: url(../court3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#section1 {
+	text-align: center;
+	color: white;
+}
+
+.inner {
+	width: 80%;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.float-fix {
+	clear: both;
+}
+
+.sections {
+	padding: 8rem 0;
+}
+
+#section2 {
+	background-color: #FFFFFF;
+}
+
+#section3 {
+	color: white;
+}
+
+#section4 {
+	background-color: #353535;
+	color: white;
+	text-align: center;
+}
+
+#section2 img, #section3 img {
+	width: 80%;
+}
+
+#section2 .right-box {
+	text-align: right;
+}
+
+#section3 .left-box {
+	text-align: left;
+}
+
+/******************** SECTION 1 ************************/
+
+.baller, #verse {
+	float: left;
+	width: 33.33%;
+}
+
+.baller img {
+	width: 100%;
+}
+
+#countdown {
+	font-size: 72px;
+}
+
+#verse-img {
+	width: 30%;
+}
+
+#competitors {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/******************** SECTION 2 ************************/
+
+.left-box, .right-box {
+	float: left;
+	width: 50%;
+}
+
+/******************** SECTION 2 ************************/
+
+#section3 .right-box {
+	text-align: right;
+}
+
+/******************** BUTTONS ************************/
+.buttons {
+	font-family: 'Bungee', cursive;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 10px;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.button1 {
+	color: #2ea3f2;
+	border: 2px solid #2ea3f2;
+}
+
+.button2 {
+	color: #2ea3f2;
+	color: white;
+	background: #2ea3f2;
+}
+
